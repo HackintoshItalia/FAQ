@@ -4,7 +4,7 @@ Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai 
 ## Mi sono perso... Cosa mi serve per fare un Hackintosh?
 Per fare un hackintosh ti servono i seguenti componenti:
 - Un hardware compatibile con macOS
-- Un bootloader (~~Cl**er~~ oppure OpenCore). Esso richiede:
+- Un bootloader (~~Cl||er~~ oppure OpenCore). Esso richiede:
     - Dei KErnel EXtension, in breve kext, (estensioni che ingannano macOS per avviarlo su un Hackintosh) compatibili con il tuo sistema.
     - Degli SSDT per il tuo sistema se usi OpenCore (per ingannare il Power Management e per la mappatura delle USB)
 - Una chiavetta usb da 16 GB o più se usi macOS, altrimenti se usi Windows una qualsiasi chiavetta USB. Dentro la chiavetta ci installeremo l'installer di macOS
@@ -19,3 +19,19 @@ https://www.hackintoshitalia.it/guide/usb-mac
 ### Come monto la EFI?
 - Da Windows basta che la copi nella root della usb
 - Da mac usa [mountEFI](https://github.com/corpnewt/MountEFI)
+
+## Poi fatta la chiavetta che devo fare?
+### Scaricare OPENCORE (~~Cl||er~~ non supportato)
+[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
+### Prendere i kext
+Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
+### Prendere gli ssdt
+Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started-With-ACPI/). Copiarli in EFI/OC/ACPI
+### Editare il config
+Ed ora... seguire la guida [dortania!](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) oppure la traduzione (SOON!!!)
+
+## VOGLIO farmi fare la EFI
+Ho capito... Se per favore ci dici: hardware e fai un sysreport come indicato dalla [guida](https://utopia-team.github.io/guide/preparazione/sysreport)
+
+## Crediti
+
