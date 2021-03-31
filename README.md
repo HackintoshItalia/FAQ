@@ -38,7 +38,7 @@ Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started
 Ed ora... seguire la guida [dortania!](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) oppure la traduzione (SOON!!!)
 
 ## Troppo casino... VOGLIO farmi fare la EFI
-Ho capito... Se per favore ci dici: hardware e fai un sysreport come indicato dalla [guida](https://utopia-team.github.io/guide/preparazione/sysreport)
+Ho capito... Se per favore ci dici: hardware e fai un sysreport come indicato dalla [guida](https://utopia-team.github.io/guide/preparazione/sysreport). Chiedi su discord o sul gruppo telegram. Costruiamo **solo** OpenCore.
 
 ## Crediti
 - Apple for macOS
