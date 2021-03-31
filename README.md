@@ -9,7 +9,7 @@ OpenCore se devi costruirlo, altrimenti anche conversioni da Clover
 ## Mi sono perso... Cosa mi serve per fare un Hackintosh?
 Per fare un hackintosh ti servono i seguenti componenti:
 - Un hardware compatibile con macOS
-- Un bootloader (~~Cl||er~~ oppure OpenCore). Esso richiede:
+- Un bootloader (come ad esempio OpenCore). Esso richiede:
     - Dei KErnel EXtension, in breve kext, (estensioni che ingannano macOS per avviarlo su un Hackintosh) compatibili con il tuo sistema.
     - Degli SSDT per il tuo sistema se usi OpenCore (per ingannare il Power Management e per la mappatura delle USB)
 - Una chiavetta usb da 16 GB o più se usi macOS, altrimenti se usi Windows una qualsiasi chiavetta USB. Dentro la chiavetta ci installeremo l'installer di macOS
@@ -26,7 +26,7 @@ https://www.hackintoshitalia.it/guide/usb-mac
 - Da mac usa [mountEFI](https://github.com/corpnewt/MountEFI)
 
 ## Poi fatta la chiavetta che devo fare?
-### Scaricare OPENCORE (~~Cl||er~~ non supportato)
+### Scaricare OPENCORE (non forniamo guide per ~~Cl||er~~)
 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 ### Prendere i kext
 Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
