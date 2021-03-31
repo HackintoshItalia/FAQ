@@ -1,5 +1,10 @@
 # FAQ: come faccio un hackintosh???
-Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai un pool request oppure segnala con un issue
+Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai un pull request oppure segnala con un issue
+
+Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il [bot del gruppo](https://t.me/Hackintosh_Italia_BOT).
+
+## Che tipi di Hack supportate?
+OpenCore se devi costruirlo, altrimenti anche conversioni da Clover
 
 ## Mi sono perso... Cosa mi serve per fare un Hackintosh?
 Per fare un hackintosh ti servono i seguenti componenti:
