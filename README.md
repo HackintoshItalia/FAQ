@@ -4,7 +4,8 @@ Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai 
 Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il [bot del gruppo](https://t.me/Hackintosh_Italia_BOT).
 
 ## Che tipi di Hack supportate?
-OpenCore se devi costruirlo, altrimenti anche conversioni da Clover
+**OpenCore** se devi costruirlo, altrimenti anche conversioni da **Clover**.
+**NON SUPPORTATI DISTRO O PRECOMPILATI COME UNIBEAST O OLARILA**
 
 ## Mi sono perso... Cosa mi serve per fare un Hackintosh?
 Per fare un hackintosh ti servono i seguenti componenti:
