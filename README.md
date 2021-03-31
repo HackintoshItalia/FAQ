@@ -26,7 +26,7 @@ https://www.hackintoshitalia.it/guide/usb-mac
 - Da mac usa [mountEFI](https://github.com/corpnewt/MountEFI)
 
 ## Poi fatta la chiavetta che devo fare?
-### Scaricare OPENCORE (non forniamo guide per ~~Cl||er~~)
+### Scaricare OPENCORE (non forniamo guide per ~~Cl**er~~)
 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 ### Prendere i kext
 Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
