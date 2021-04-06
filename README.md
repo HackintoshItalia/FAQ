@@ -32,6 +32,14 @@ https://www.hackintoshitalia.it/guide/usb-mac
 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 ### Prendere i kext
 Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
+Kext necessari di default:
+- VirtualSMC
+- Lilu
+- Whatevergreen
+- AppleALC
+- Kext di rete/WiFi
+- NVMefix per i dischi NVMe
+- Kext voodoo per i trackpad/tastiere portatili
 ### Prendere gli ssdt
 Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started-With-ACPI/). Copiarli in EFI/OC/ACPI
 ### Editare il config
