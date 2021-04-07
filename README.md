@@ -38,7 +38,7 @@ Kext necessari di default:
 - [Lilu](https://github.com/acidanthera/Lilu/releases)
 - [Whatevergreen](https://github.com/acidanthera/WhateverGreen/releases)
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
-- [Kext di rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
+- Kext di [rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 - [NVMefix](https://github.com/acidanthera/NVMeFix/releases) per i dischi NVMe
 - [Kext voodoo per i trackpad/tastiere portatili](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics)
 ### Prendere gli ssdt
