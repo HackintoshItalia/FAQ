@@ -32,6 +32,7 @@ https://www.hackintoshitalia.it/guide/usb-mac
 [OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
 ### Prendere i kext
 Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
+
 Kext necessari di default:
 - VirtualSMC
 - Lilu
