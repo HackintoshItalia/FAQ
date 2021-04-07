@@ -34,13 +34,13 @@ https://www.hackintoshitalia.it/guide/usb-mac
 Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
 
 Kext necessari di default:
-- VirtualSMC
-- Lilu
-- Whatevergreen
-- AppleALC
-- Kext di rete/WiFi
-- NVMefix per i dischi NVMe
-- Kext voodoo per i trackpad/tastiere portatili
+- [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
+- [Lilu](https://github.com/acidanthera/Lilu/releases)
+- [Whatevergreen](https://github.com/acidanthera/WhateverGreen/releases)
+- [AppleALC](https://github.com/acidanthera/AppleALC/releases)
+- [Kext di rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
+- [NVMefix](https://github.com/acidanthera/NVMeFix/releases) per i dischi NVMe
+- [Kext voodoo per i trackpad/tastiere portatili](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics)
 ### Prendere gli ssdt
 Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started-With-ACPI/). Copiarli in EFI/OC/ACPI
 ### Editare il config
