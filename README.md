@@ -3,6 +3,13 @@ Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai 
 
 Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il [bot del gruppo](https://t.me/Hackintosh_Italia_BOT).
 
+## Il mio Hardware è compatibile?
+- CPU: qualsiasi CPU Intel Core I (il gruppo supporta da Skylake-Comet Lake)
+- MotherBoard: casi limite (TODO)
+- GPU: Nvidia (Solo serie 6XX e 7XX) o AMD (TODO)
+- Periferiche I/O (per laptop)
+- NON avere questi dischi Nvme: (TODO)
+
 ## Che tipi di Hack supportate?
 **OpenCore** se devi costruirlo, altrimenti anche conversioni da **Clover**.
 
