@@ -11,7 +11,7 @@ Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il 
 - NON avere questi dischi Nvme: (TODO)
 
 ## Che tipi di Hack supportate?
-**OpenCore** se devi costruirlo, altrimenti anche conversioni da **Clover**.
+**OpenCore** se devi ancora creare la EFI, altrimenti benifichiamo anche da **Clover**.
 
 **NON SUPPORTATI DISTRO O PRECOMPILATI COME UNIBEAST O OLARILA**
 
