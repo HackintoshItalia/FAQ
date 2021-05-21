@@ -60,7 +60,7 @@ Se per favore devi dirci:
 
 - Hardware
 - Fai un sysreport:
-  1. Scarica [questo file](kutt.it/EFI) ed estrailo.
+  1. Scarica [questo file](https://kutt.it/EFI) ed estrailo.
   2. Formatta una chiavetta usb come FAT32 o FAT.
   3. Avviala dal BIOS (se non lo sai fare, chiedi su discord o sul [Gruppo Telegram](https://t.me/hackintoshitalia))
   4. Appena finirà di processare, apparirà un menù da cui devi riavviare.
