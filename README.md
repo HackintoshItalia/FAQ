@@ -54,11 +54,25 @@ Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started
 Ed ora... seguire la guida [dortania!](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) oppure la traduzione (SOON!!!)
 
 ## Troppo casino... VOGLIO farmi fare la EFI
-Ho capito... Se per favore ci dici: hardware e fai un sysreport come indicato dalla [guida](https://utopia-team.github.io/guide/preparazione/sysreport). Chiedi su discord o sul gruppo telegram. Costruiamo **solo** OpenCore.
+Ho capito...
+
+Se per favore devi dirci:
+
+- Hardware
+- Fai un sysreport:
+  1. Scarica [questo file](kutt.it/EFI) ed estrailo.
+  2. Formatta una chiavetta usb come FAT32 o FAT.
+  3. Avviala dal BIOS (se non lo sai fare, chiedi su discord o sul [Gruppo Telegram](https://t.me/hackintoshitalia))
+  4. Appena finirà di processare, apparirà un menù da cui devi riavviare.
+  5. Copia **ENTRAMBI** i dati che sono stati generati (la cartella Sysreport e i file .log) e inviali a chi fai la richiesta.
+
+Ah già dimenticavo:
+
+Chiedi su discord o sul gruppo telegram, **NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**. Inoltre, costruiamo **solo** OpenCore.
 
 ## Crediti
 - Apple for macOS
 - Acidanthera per OpenCore
 - Hackintoshitalia per l'aiuto dato
-- utopia-team per il sysreport
+- utopia-team per l'idea del sysreport
 - dortania per le guide
