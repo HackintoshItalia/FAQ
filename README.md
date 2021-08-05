@@ -9,9 +9,13 @@ Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il 
 - GPU: Nvidia (Solo serie 6XX e 7XX) o AMD (TODO)
 - Periferiche I/O (per laptop)
 - NON avere questi dischi Nvme: (TODO)
+- Hardware 11th(è supportato con delle limitazioni) 
+  -Impossibilità di usare la IGPU, ma solo una gpu dedicata(NO LAPTOP)
+  -POWER MANAGEMENT non adatto a questo tipo di CPU(causa SMBIOS NON ADATTO)
 
-## Che tipi di Hack supportate?
-**OpenCore** se devi ancora creare la EFI, altrimenti benifichiamo anche da **Clover**.
+## Cos'è il POWER MANAGEMENT?
+
+Quando c'è maggiore carico (causa task intensivi) la CPU aumenta la frequenza di clock. Viceversa in caso di "idle" la CPU scala la frequenza passando a frequenze più basse.
 
 **NON SUPPORTATI DISTRO O PRECOMPILATI COME UNIBEAST O OLARILA**
 
@@ -56,7 +60,7 @@ Ed ora... seguire la guida [dortania!](https://dortania.github.io/OpenCore-Insta
 ## Troppo casino... VOGLIO farmi fare la EFI
 Ho capito...
 
-Se per favore devi dirci:
+Devi dirci:
 
 - Hardware
 - Fai un sysreport:
@@ -66,9 +70,7 @@ Se per favore devi dirci:
   4. Appena finirà di processare, apparirà un menù da cui devi riavviare.
   5. Copia **ENTRAMBI** i dati che sono stati generati (la cartella Sysreport e i file .log) e inviali a chi fai la richiesta.
 
-Ah già dimenticavo:
-
-Chiedi su discord o sul gruppo telegram, **NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**. Inoltre, costruiamo **solo** OpenCore.
+Chiedi su discord(scrivendo /assistenza nel gruppo telegram, **NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**. Inoltre, costruiamo **solo** OpenCore.
 
 ## Crediti
 - Apple for macOS
