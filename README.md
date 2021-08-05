@@ -1,7 +1,7 @@
 # FAQ: come faccio un hackintosh???
 Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai un pull request oppure segnala con un issue
 
-Prima di fare una qualsiasi domanda, consulta le regole del gruppo, avviando il [bot del gruppo](https://t.me/Hackintosh_Italia_BOT).
+Prima di fare una qualsiasi domanda, consulta le regole, scrivendo /regole [nel gruppo](https://t.me/Hackintosh_Italia).
 
 ## Il mio Hardware è compatibile?
 - CPU: qualsiasi CPU Intel Core I (il gruppo supporta da Skylake-Comet Lake)
@@ -23,13 +23,13 @@ Quando c'è maggiore carico (causa task intensivi) la CPU aumenta la frequenza d
 Per fare un hackintosh ti servono i seguenti componenti:
 - Un hardware compatibile con macOS
 - Un bootloader (come ad esempio OpenCore). Esso richiede:
-    - Dei KErnel EXtension, in breve kext, (estensioni che ingannano macOS per avviarlo su un Hackintosh) compatibili con il tuo sistema.
+    - Dei Kernel Extensions, in breve kext, (estensioni che ingannano macOS per avviarlo su un Hackintosh) compatibili con il tuo sistema.
     - Degli SSDT per il tuo sistema se usi OpenCore (per ingannare il Power Management e per la mappatura delle USB)
-- Una chiavetta usb da 16 GB o più se usi macOS, altrimenti se usi Windows una qualsiasi chiavetta USB. Dentro la chiavetta ci installeremo l'installer di macOS
+- Una chiavetta usb da 16 GB o più se usi macOS, altrimenti se usi Windows una qualsiasi chiavetta USB. Nella USB ci metteremo l'installer di macOS
 - Un OS decente su cui lavorare
 - Un po' di spazio sul disco
 
-## Ho capito che mi serve una chiavetta. Ma come diavolo la faccio!?
+## Ho capito che mi serve una chiavetta. Ma come la faccio!?
 ### Windows
 https://www.hackintoshitalia.it/guide/usb-windows
 ### macOS
