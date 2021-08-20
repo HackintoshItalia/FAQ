@@ -47,10 +47,7 @@ Kext necessari di default:
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 - Kext di [rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 - [NVMefix](https://github.com/acidanthera/NVMeFix/releases) per i dischi NVMe
-- [Kext voodoo per i trackpad/tastiere portatili](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics)
-
-### Editare il config
-Ora... per editare il config scrivere nel gruppo Telegram /opencore 
+- [Kext voodoo per i trackpad/tastiere portatili](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics) 
 
 ## Troppo casino... VOGLIO farmi fare la EFI
 Ho capito...
