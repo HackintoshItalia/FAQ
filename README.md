@@ -1,15 +1,12 @@
 # FAQ: come faccio un hackintosh???
-Benvenuto! Questa guida è un work in progress. Se vuoi aggiungere qualcosa fai un pull request oppure segnala con un issue
+Benvenuto! Queste FAQ sono un work in progress. Se vuoi aggiungere qualcosa fai un pull request oppure segnala con un issue
 
-Prima di fare una qualsiasi domanda, consulta le regole, scrivendo /regole [nel gruppo](https://t.me/Hackintosh_Italia).
+Prima di fare una qualsiasi domanda, consulta le regole, scrivendo /regole [nel gruppo](https://t.me/Hackintoshitalia).
 
 ## Il mio Hardware è compatibile?
 - CPU: qualsiasi CPU Intel Core I (il gruppo supporta da Skylake-Comet Lake)
-- MotherBoard: casi limite (TODO)
-- GPU: Nvidia (Solo serie 6XX e 7XX) o AMD (TODO)
-- Periferiche I/O (per laptop)
-- NON avere questi dischi Nvme: (TODO)
 - Hardware 11th(è supportato con delle limitazioni) 
+- Motherboard: Cercare di evitare Gigabyte 
   -Impossibilità di usare la IGPU, ma solo una gpu dedicata(NO LAPTOP)
   -POWER MANAGEMENT non adatto a questo tipo di CPU(causa SMBIOS NON ADATTO)
 
@@ -39,10 +36,9 @@ https://www.hackintoshitalia.it/guide/usb-mac
 - Da mac usa [mountEFI](https://github.com/corpnewt/MountEFI)
 
 ## Poi fatta la chiavetta che devo fare?
-### Scaricare OPENCORE
-[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)
-### Prendere i kext
-Seguire la guida [dortania](https://dortania.github.io/OpenCore-Install-Guide/ktext.html) o la sua traduzione (SOON!!!). Copiarli tutti in EFI/OC/kext. Non prendere più kext del necessario.
+- Scrivere /OPENCORE [nel gruppo Telegram](https://t.me/Hackintoshitalia)
+
+Guida inserimento Kext in EFI(https://macos86.gitbook.io/guida-opencore/varie/varie/kexts)
 
 Kext necessari di default:
 - [VirtualSMC](https://github.com/acidanthera/VirtualSMC/releases)
@@ -52,25 +48,22 @@ Kext necessari di default:
 - Kext di [rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 - [NVMefix](https://github.com/acidanthera/NVMeFix/releases) per i dischi NVMe
 - [Kext voodoo per i trackpad/tastiere portatili](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics)
-### Prendere gli ssdt
-Anche qua seguire la guida [dortania](https://dortania.github.io/Getting-Started-With-ACPI/). Copiarli in EFI/OC/ACPI
+
 ### Editare il config
-Ed ora... seguire la guida [dortania!](https://dortania.github.io/OpenCore-Install-Guide/config.plist/) oppure la traduzione (SOON!!!)
+Ora... per editare il config scrivere nel gruppo Telegram /opencore 
 
 ## Troppo casino... VOGLIO farmi fare la EFI
 Ho capito...
 
-Devi dirci:
+Chiedi su Discord(scrivendo /assistenza nel gruppo Telegram, **NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**. Inoltre, costruiamo **solo** OpenCore.
 
 - Hardware
 - Fai un sysreport:
-  1. Scarica [questo file](https://kutt.it/EFI) ed estrailo.
+  1. Scarica [questo file](https://github.com/utopia-team/opencore-debug/releases) ed estrailo.
   2. Formatta una chiavetta usb come FAT32 o FAT.
-  3. Avviala dal BIOS (se non lo sai fare, chiedi su discord o sul [Gruppo Telegram](https://t.me/hackintoshitalia))
+  3. Avvia la usb precedentemente creata tramite il bios 
   4. Appena finirà di processare, apparirà un menù da cui devi riavviare.
   5. Copia **ENTRAMBI** i dati che sono stati generati (la cartella Sysreport e i file .log) e inviali a chi fai la richiesta.
-
-Chiedi su discord(scrivendo /assistenza nel gruppo telegram, **NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**. Inoltre, costruiamo **solo** OpenCore.
 
 ## Crediti
 - Apple for macOS
