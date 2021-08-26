@@ -44,9 +44,12 @@ Il gruppo fornisce supporto solo ed esclusivamente ad EFI realizzate con OpenCor
 
 Con questo termine generalmente ci si riferisce alla gestione delle risorse energetiche del PC in situazioni di stress (task intensivi) e situazioni di idle (riposo). Una errata configurazione del power management può risultare in consumi e temperature elevati in situazioni apparentemente di riposo, nonchè performance castrate.
 
-Per ovviare a questo problema il primo consiglio è selezionare un SMBIOS appropriato per la propria configurazione hardware, seguendo le indicazioni di [dortania](https://dortania.github.io/OpenCore-Install-Guide)
+Per ovviare a questo problema il primo consiglio è selezionare un SMBIOS appropriato per la propria configurazione hardware.
 
 ## Come posso creare una chiavetta USB con macOS?
+
+- Per Windows/Linux cliccare [qui](https://www.hackintoshitalia.it/guide/usb-windows)
+- Per macOS cliccare [qui](https://www.hackintoshitalia.it/guide/usb-mac)
 
 **NON SONO SUPPORTATE DISTRO/INSTALLER MODIFICATI COME UNIBEAST O OLARILA**
 
@@ -57,29 +60,14 @@ Metodi come Unibeast/Multibeast vanno contro il principio dell'installazione di 
 Per realizzare un hackintosh occorrono:
 
 0. Conoscenze basilari di un computer:
-  - come accendere un computer
-  - come aprire un terminale e navigare fra i file di sistema
-  - come avviare il BIOS/Boot menu
+   - come accendere un computer
+   - come avviare il BIOS/Boot menu
+   - come aprire un terminale e navigare fra i file di sistema
 1. Un hardware compatibile con macOS
 2. Un bootloader propriamente configurato come OpenCore
 3. Una chiavetta USB con capienza da almeno 2 GB (nel caso di installer via internet) o 16 GB (nel caso di installer completo)
 4. Un PC con Windows/Linux (per installer via internet) o un Mac (per installer completo)
 5. Almeno 128GB di spazio su disco per installare macOS. E' altamente consigliato optare per un disco aggiuntivo, per evitare problemi con dual boot
-
-Per creare la chiavetta USB:
-
-## Come posso creare una chiavetta USB contenente l'installer di macOS?
-
-- Per Windows/Linux cliccare [qui](https://www.hackintoshitalia.it/guide/usb-windows)
-- Per macOS cliccare [qui](https://www.hackintoshitalia.it/guide/usb-mac)
-
-
-## Che cos'è la EFI e come si monta?
-
-Per `EFI` (`Extensible Firmware Interface`) generalmente ci si riferisce ad una partizione o ad un dispositivo di storage contenente i file necessari al boot di un dato sistema operativo. Nel caso di Hackintosh, OpenCore.
-
-- Nel caso di chiavette create col metodo `Internet Recovery Install`, basterà aprire con un gestore file il contenuto della chiavetta USB.
-- Nel caso di chiavette create col metodo `Full Install` (possibile solo su macOS) occorrerà utilizzare un terminale (vedi `diskutil list` e `diskutil mount`) oppure usare software come [TINU](https://github.com/ITzTravelInTime/TINU) o [MountEFI](https://github.com/corpnewt/MountEFI)
 
 ## Una volta creata la chiavetta USB cosa devo fare?
 
@@ -94,13 +82,20 @@ Kext necessari di default:
 - [AppleALC](https://github.com/acidanthera/AppleALC/releases)
 - Kext di [rete](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#ethernet) o per il [WiFi/Bluetooth](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#wifi-and-bluetooth)
 - [NVMefix](https://github.com/acidanthera/NVMeFix/releases) per i dischi NVMe compatibili con macOS
-- [Kext specifici per laptop](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics) 
+- [Kext specifici per laptop](https://dortania.github.io/OpenCore-Install-Guide/ktext.html#laptop-specifics)
+
+## Che cos'è la EFI e come si monta?
+
+Per `EFI` (`Extensible Firmware Interface`) generalmente ci si riferisce ad una partizione o ad un dispositivo di storage contenente i file necessari al boot di un dato sistema operativo. Nel caso di Hackintosh, OpenCore.
+
+- Nel caso di chiavette create col metodo `Internet Recovery Install`, basterà aprire con un gestore file il contenuto della chiavetta USB.
+- Nel caso di chiavette create col metodo `Full Install` (possibile solo su macOS) occorrerà utilizzare un terminale (vedi `diskutil list` e `diskutil mount`) oppure usare software come [TINU](https://github.com/ITzTravelInTime/TINU) o [MountEFI](https://github.com/corpnewt/MountEFI)
 
 ## Troppo casino... Potete aiutarmi nel processo di creazione della EFI nonchè installazione di macOS?
 
 Ti capiamo... Non è semplice dover assimilare tutte queste nozioni in poco tempo. Fortunatamente il team di HackintoshItalia è più che preparato per aiutarti.
 
-Per richiedere assistenza, digita `/assistenza` [nel gruppo Telegram](https://t.me/Hackintoshitalia).
+Per richiedere assistenza, digita `/ASSISTENZA` [nel gruppo Telegram](https://t.me/Hackintoshitalia).
 
 **N.B. NON RISPONDEREMO A RICHIESTE INVIATE IN PRIVATO/VIA ALTRI SISTEMI DI COMUNICAZIONE**
 
@@ -108,7 +103,7 @@ Per richiedere assistenza, digita `/assistenza` [nel gruppo Telegram](https://t.
 
 - Apple per macOS
 - Acidanthera per OpenCore
-- Hackintoshitalia per l'aiuto dato
-- utopia-team per la EFI utilizzata per il SysReport
-- dortania per le guide
+- Hackintosh Italia per l'aiuto dato
+- Utopia Team per la EFI utilizzata per il SysReport
+- Dortania per le guide
 - macOS86 per le guide scritte sul loro forum
