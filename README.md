@@ -4,9 +4,9 @@ Benvenuto! Queste FAQ sono un work in progress. Se vuoi aggiungere qualcosa fai 
 Prima di fare una qualsiasi domanda, consulta le regole, scrivendo /regole [nel gruppo](https://t.me/Hackintoshitalia).
 
 ## Il mio Hardware è compatibile?
-- CPU: qualsiasi CPU Intel Core I (il gruppo supporta da Skylake-Comet Lake)
+- CPU: qualsiasi CPU Intel Core e AMD(il gruppo supporta da Skylake-Comet Lake per Intel, mentre per AMD principalmente Ryzen)
+- Motherboard: Cercare di evitare Gigabyte
 - Hardware 11th(è supportato con delle limitazioni) 
-- Motherboard: Cercare di evitare Gigabyte 
   -Impossibilità di usare la IGPU, ma solo una gpu dedicata(NO LAPTOP)
   -POWER MANAGEMENT non adatto a questo tipo di CPU(causa SMBIOS NON ADATTO)
 
